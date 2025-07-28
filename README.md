@@ -5,7 +5,7 @@
 TS-VAD+ is a transformer-based speaker diarization system designed to detect "who spoke when" in multi-speaker audio. It processes two inputs: (1) raw speech, encoded using a WavLM model into frame-level acoustic features, and (2) speaker profiles, extracted from single-speaker audio segments using ECAPA-TDNN embeddings. These inputs are passed through a two-stage transformer architecture—first to perform independent speaker activity detection for each speaker, and then to integrate outputs into a unified probability stream. The final predictions are postprocessed to generate RTTM files. Compared to traditional clustering-based pipelines and EEND models, TS-VAD+ is more robust in overlapping speech scenarios and requires less training data.
 
 <p align="center">
-  <img src="ts-vad/tsvad_plus_architecture.png" alt="TS-VAD+ Model Architecture" width="600"/>
+  <img src="tsvad_plus_architecture.png" alt="TS-VAD+ Model Architecture" width="600"/>
 </p>
 
 <p align="center"><em>Figure: TS-VAD+ model architecture showing WavLM-based speech encoding, ECAPA-TDNN embeddings, and dual transformer stages for speaker diarization</em></p>
