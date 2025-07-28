@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -j oe
+#PBS -l select=1:ncpus=16:mem=189gb:ngpus=1
+#PBS -N my_cross_attn_ecapa_8
+#PBS -l walltime=23:59:00
+#PBS -P Personal
+source /home/users/nus/e1342275/anaconda3/bin/activate tsvad
+cd /home/users/nus/e1342275/TSVAD_pytorch/ts-vad
+./run_train.sh

@@ -1,0 +1,15 @@
+python main.py \
+--train_list "/home/users/nus/e1342275/scratch/datasets_tsvad/DIHARD 3/third_dihard_challenge_dev/data/ts_dev.json" \
+--eval_list "/home/users/nus/e1342275/scratch/datasets_tsvad/DIHARD 3/third_dihard_challenge_eval/data/ts_eval.json" \
+--train_path "/home/users/nus/e1342275/scratch/datasets_tsvad/DIHARD 3/third_dihard_challenge_dev/data" \
+--eval_path "/home/users/nus/e1342275/scratch/datasets_tsvad/DIHARD 3/third_dihard_challenge_eval/data" \
+--save_path "/home/users/nus/e1342275/scratch/home/users/nus/e1342275/scratch/DH3_mamba_test" \
+--rs_len 4 \
+--test_shift 0.5 \
+--min_silence 0.32 \
+--min_speech 0.00 \
+--threshold 0.50 \
+--n_cpu 16 \
+--max_speaker 8 \
+--eval \
+--init_model "/home/users/nus/e1342275/scratch/DH3_mamba_test/model/model_0009.model"
