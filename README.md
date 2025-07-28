@@ -8,7 +8,7 @@ TS-VAD+ is a transformer-based speaker diarization system designed to detect "wh
   <img src="tsvad_plus_architecture.png" alt="TS-VAD+ Model Architecture" width="400"/>
 </p>
 
-<p align="center"><em>Figure: TS-VAD+ model architecture showing WavLM-based speech encoding, ECAPA-TDNN embeddings, and dual transformer stages for speaker diarization</em></p>
+<p align="center"><em>Figure: TS-VAD+ model architecture</em></p>
 
 
 ## Improvements Over Baseline TS-VAD
